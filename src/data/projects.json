@@ -1,0 +1,60 @@
+{
+    "proyectos": [
+        {
+            "name": "Quiz app",
+            "image": "quiz",
+            "technologies": ["ReactNative", "JavaScript"],
+            "url_code": "https://github.com/MatiasOrtizF/quiz-app",
+            "mobile": true
+        },
+        {
+            "name": "Weather app",
+            "image": "weather",
+            "technologies": ["ReactNative", "JavaScript"],
+            "url_code": "https://github.com/MatiasOrtizF/Weather-app",
+            "mobile": true
+        },
+        {
+            "name": "Enclycopedy star wars",
+            "image": "encyclopedia",
+            "technologies": ["ReactNative", "JavaScript"],
+            "url_code": "https://github.com/MatiasOrtizF/enclycopedia-star-wars",
+            "mobile": true
+        },
+        {
+            "name": "Dictionary app",
+            "image": "dictionary",
+            "technologies": ["ReactNative", "JavaScript"],
+            "url_code": "https://github.com/MatiasOrtizF/dictionary-app",
+            "mobile": true
+        },
+        {
+            "name": "Todo app",
+            "image": "todo",
+            "technologies": ["ReactNative", "JavaScript"],
+            "url_code": "https://github.com/MatiasOrtizF/todo-app",
+            "mobile": true
+        },
+        {
+            "name": "REST Countries",
+            "image": "restCountries",
+            "technologies": ["HTML", "CSS", "JavaScript", "React"],
+            "url_code": "https://github.com/MatiasOrtizF/rest-countries-api",
+            "mobile": false
+        },
+        {
+            "name": "GitHub user search",
+            "image": "githubUserSearch",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "url_code": "https://github.com/MatiasOrtizF/github-user-search",
+            "mobile": false
+        },
+        {
+            "name": "Url shortening",
+            "image": "urlShortening",
+            "technologies": ["HTML", "CSS", "JavaScript", "React"],
+            "url_code": "https://github.com/MatiasOrtizF/url-shortening",
+            "mobile": false
+        }
+    ]
+}
