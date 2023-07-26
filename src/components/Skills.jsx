@@ -14,11 +14,11 @@ import ReactIcon from '../assets/react.png';
             {name: "React", image: ReactIcon},
         ]
         return (
-            <div id="skills" class="container">
+            <div id="skills" className="container">
                 <h2>Skills</h2>
-                <div class="grid">
+                <div className="grid">
                     {skills?.map((skill, index)=>(
-                    <div key={index} class="table-skills">
+                    <div key={index} className="table-skills">
                         <img src={skill.image} alt=""/>
                         <p>{skill.name}</p>
                     </div>

@@ -37,13 +37,13 @@ function Projects() {
             <div className="grid">
                 {data?.proyectos?.map((project, index)=>(
                     <div key={index} className="table-project">
-                        <a target="_blank" href="https://matiasortizf.github.io/url-shortening/">
+                        <a target="_blank" href={project.url_site}>
                             <img className={project.mobile ? 'app-desing' : 'web-desing'}src={desing[project.image]} alt=""/>
                         </a>
                         <h3>{project.name}</h3>
                         <div className="technology">
-                            {project.technologies?.map((technologie)=> (
-                                <img src={technologyImages[technologie]} alt=""/>
+                            {project.technologies?.map((technologie, index)=> (
+                                <img key={index} src={technologyImages[technologie]} alt=""/>
                             ))}
                         </div>
                         <a target="_blank" href={project.url_code}><button>View Code</button></a>

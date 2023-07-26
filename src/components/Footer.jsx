@@ -3,7 +3,7 @@ import '../App.jsx'
 function Footer() {
     return (
         <footer>
-            <p class="copyright">
+            <p className="copyright">
                 Todos los derechos Reservados Matias Ortiz 2023.
             </p>    
         </footer>

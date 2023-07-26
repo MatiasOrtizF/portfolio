@@ -3,24 +3,24 @@ import '../App.jsx'
 function Contact() {
 
     return (
-        <div id="contact" class="container">
+        <div id="contact" className="container">
             {/* <h2>Contact</h2> */}
             <div className='contact-grid'>
                 <div className='contact-us'>
                     <h4>Contac us</h4>
                     <p>Email</p>
                     <div className='contact-info'>
-                        <i class="fa-regular fa-envelope"></i>
+                        <i className="fa-regular fa-envelope"></i>
                         <h5>matias_ortiz_@outlook.es</h5>
                     </div>
                     <p>Git hub</p>
                     <div className='contact-info'>
-                        <i class="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github"></i>
                         <h5>MatiasOrtizF</h5>
                     </div>
                     <p>Location</p>
                     <div className='contact-info'>
-                        <i class="fa-solid fa-location-dot"></i>
+                        <i className="fa-solid fa-location-dot"></i>
                         <h5>Buenos Aires, Argentina</h5>
                     </div>
                 </div>
