@@ -4,6 +4,7 @@ import HtmlIcon from '../assets/html_mini.png';
 import CssIcon from '../assets/css_mini.png';
 import JavaScriptIcon from '../assets/js_mini.png';
 import ReactIcon from '../assets/react_mini.png';
+import FirebaseIcon from '../assets/firebase_mini.png'
 import quizDesing from '../assets/apps-desing/quiz-app.png';
 import weatherDesing from '../assets/apps-desing/weather-app.png';
 import encyclopediaDesing from '../assets/apps-desing/encyclopedia-start-wars-app.png';
@@ -19,7 +20,8 @@ function Projects() {
         CSS: CssIcon,
         JavaScript: JavaScriptIcon,
         React: ReactIcon,
-        ReactNative: ReactIcon
+        ReactNative: ReactIcon,
+        Firebase: FirebaseIcon
     };
     const desing = {
         quiz: quizDesing,
@@ -43,7 +45,7 @@ function Projects() {
                         <h3>{project.name}</h3>
                         <div className="technology">
                             {project.technologies?.map((technologie, index)=> (
-                                <img key={index} src={technologyImages[technologie]} alt=""/>
+                                <img key={index} src={technologyImages[technologie]} alt="" title={technologie} />
                             ))}
                         </div>
                         <a target="_blank" href={project.url_code}><button>View Code</button></a>

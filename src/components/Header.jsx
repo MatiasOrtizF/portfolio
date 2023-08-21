@@ -15,7 +15,7 @@ import menuMobile from '../assets/menu-mobile.png'
                             <a className="btn" href="#projects">projects</a>
                             <a className="btn" href="#skills">skills</a>
                             <a className="btn" href="#contact">contact</a>
-                            <a className="btn" href="CV_Matias-Ortiz.pdf" target="_blank">curriculum</a>
+                            <a className="btn" href="CV Ortiz Matias 2023.pdf" target="_blank">curriculum</a>
                         </nav> 
                         <img className='menu-mobile' onClick={()=> setViewMenu(!viewMenu)} src={menuMobile} alt='menu-mobile-icon'/>
                     </div>

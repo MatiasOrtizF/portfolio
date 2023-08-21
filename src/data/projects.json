@@ -3,7 +3,7 @@
         {
             "name": "Quiz app",
             "image": "quiz",
-            "technologies": ["ReactNative", "JavaScript"],
+            "technologies": ["ReactNative", "JavaScript", "Firebase"],
             "url_site": "",
             "url_code": "https://github.com/MatiasOrtizF/quiz-app",
             "mobile": true
